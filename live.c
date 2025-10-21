@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "../snippets/allocator.h"
+#include "allocator.h"
 
 typedef float ℝ2 __attribute__((__vector_size__(sizeof(float[2]))));
 
